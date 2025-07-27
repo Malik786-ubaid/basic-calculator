@@ -1,7 +1,7 @@
 const display = document.getElementById("display");
-const buttons = document.querySelectorAll("button");
+const buttons = document.querySelectorAll(".buttons button");
 
-buttons.forEach((button) => {
+buttons.forEach(button => {
   button.addEventListener("click", () => {
     const value = button.textContent;
 
