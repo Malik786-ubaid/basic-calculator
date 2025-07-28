@@ -1,3 +1,4 @@
+// Loop through all buttons and add click event
 const display = document.getElementById("display");
 const buttons = document.querySelectorAll(".buttons button");
 
